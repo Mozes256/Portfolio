@@ -47,9 +47,9 @@ html {
     font-size: larger;
 }
 
-#twogele {
+.header  #twogele {
     text-decoration: none;
-    margin-top: 3%;
+    margin-top: 3px;
     margin-right: 4%;
     color: white;
     background: #7d2ae8;
@@ -64,7 +64,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#twogele:hover {
+.header  #twogele:hover {
     background-color: white;
     color: #7d2ae8;
 }
