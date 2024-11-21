@@ -7,8 +7,8 @@ html {
     width: 100%;
 }
 
-header {
-    background-color: whitesmoke;
+.header {
+    background-color: goldenrod;
     position: sticky;
     top: 0;
     left: 0;
@@ -22,9 +22,13 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.logo {
+    margin-left: 50px;
+}
+
 .logo span {
     font-size: 24px;
-    color: red;
+    color: #7d2ae8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -38,35 +42,35 @@ header {
 }
 
 .navigation a:hover {
-    background-color: blue;
     color: white;
-    transition: 0.5s;
+    transition: 0.35s;
+    font-size: larger;
 }
 
-.twogele {
+#twogele {
     text-decoration: none;
     margin-top: 3%;
     margin-right: 4%;
     color: white;
-    background: #8000ff;
+    background: #7d2ae8;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 35px;
     padding-right: 35px;
     border-radius: 10px;
-    border-color: #8000ff;
+    border-color: #7d2ae8;
     border-style: solid;
     border-width: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.twogele:hover {
+#twogele:hover {
     background-color: white;
-    color: #8000ff;
+    color: #7d2ae8;
 }
 
 .main-content {
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -81,13 +85,13 @@ header {
 }
 
 .main-content h2 span {
-    color: #8000ff;
+    color: #7d2ae8;
     margin-left: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-content h4 {
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -99,13 +103,13 @@ header {
 .button-group a {
     text-decoration: none;
     color: white;
-    background: #8000ff;
+    background: #7d2ae8;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 35px;
     padding-right: 35px;
     border-radius: 10px;
-    border-color: blue;
+    border-color: #7d2ae8;
     border-style: solid;
     border-width: 2px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -113,25 +117,25 @@ header {
 
 .button-group .blue-btn:hover {
     background: white;
-    color: #8000ff;
+    color: #7d2ae8;
 }
 
 .button-group .white-btn {
     background: white;
-    color: #8000ff;
+    color: #7d2ae8;
     margin-left: 30px;
 }
 
 .button-group .white-btn:hover {
-    background: #8000ff;
+    background: #7d2ae8;
     color: white;
 }
 
 .Profile-pic {
     width: 500px;
-    height: 500px;
+    height: 850px;
     border-radius: 50%;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .profile-info {
@@ -142,5 +146,28 @@ header {
     width: 100%;
     height: auto;
     object-fit: cover;
-    object-position: top;
+    object-position: fixed;
+}
+
+.icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    color: white;
+    margin-top: 100px;
+    text-decoration: none;
+    background: #7d2ae8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #7d2ae8;
+
+}
+
+.icons a:hover {
+    transition: .3s;
+    background-color: white;
+    color: #7d2ae8;
 }
